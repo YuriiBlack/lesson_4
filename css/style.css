@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+div{
+    margin-bottom:15px ;
+}
+
+p.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+div .text_2 {
+    color: red;
+    text-transform: uppercase;
+}
+
+.text_3{
+    color: olivedrab;
+    text-transform: capitalize;
+    font-family: "Larsseit", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+div .text_4{
+    font-size: 22px;
+    color: rebeccapurple;
+    font-family: "Loto", sans-serif;
+}
+
+.text_5{
+    color:navy;
+    text-decoration: underline;
+}
+
+div.text_6{
+    color: aqua;
+    text-decoration: line-through;
+}
+
+.text_7{
+    color: teal;
+    font-size: 44px;
+}
+
+.text_8,
+.text_9{
+    color: red;
+}
+
+
+div.text_8{
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+div.text_9{
+    font-size: 33px;
+}
+
+.contact{
+    margin-bottom: 15px;
+}
+
+.contact ul{
+    margin-bottom: 15px;
+    color: yellow;
+}
+
+.contact ol {
+    margin-bottom: 10px;
+    color: pink;
+    font-size: 22px;
+}
